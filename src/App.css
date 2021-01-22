@@ -1,0 +1,7 @@
+.is danger{
+   
+        border:1px solid red;
+    }
+    input:focus{
+        border: 2px solid green;
+    }
