@@ -26,17 +26,25 @@ function App() {
   return (
     <div className="Api">
       <h1>hello Api </h1>
-      <form name="contact" action="POST" data-netlify="true">
-  <p>
-    <label>Your Name: <input type="text" name="name" /></label>   
+      <form subject='A Message From Personal Website' netlify="true" name="contact1" id='contact-form' method="post" action="/thanks/" data-netlify-honeypot="bot-field">
+  <input type="hidden" name="form-name" value="contact" />
+  <p style='display: none;'>
+    <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
   </p>
-  
-  
-  <p>
-    <label>Message: <textarea name="message"></textarea></label>
+  <p class='form-row'>
+    <label>Your Name: </label><input type='text' name='name' required/>
   </p>
-  <p>
-    <button type="submit">Send</button>
+  <p class='form-row'>
+    <label>Email Address: </label><input type='email' name='email' required/>
+  </p>
+  <p class='form-row'>
+    <label>A Favorite Work of Art: </label><input type='text' name='art'/>
+  </p>
+  <p class='form-row'>
+    <label>Your Message: </label><textarea id='message' name='message' required></textarea>
+  </p>
+  <p id='button-row'>
+    <button id='submit-button' type='submit'>Contact Me!</button>
   </p>
 </form>
 
