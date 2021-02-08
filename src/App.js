@@ -26,7 +26,7 @@ function App() {
   return (
     <div className="Api">
       <h1>hello Api </h1>
-      <form name="contact" method="POST" data-netlify="true">
+      <form name="contact" action="POST" data-netlify="true">
   <p>
     <label>Your Name: <input type="text" name="name" /></label>   
   </p>
