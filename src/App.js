@@ -26,7 +26,7 @@ function App() {
   return (
     <div className="Api">
       <h1>hello Api </h1>
-      <form subject='A Message From Personal Website' netlify="true" name="contact1" id='contact-form' method="POST" >
+      <form subject='A Message From Personal Website' netlify name="contact1" id='contact-form' method="POST" >
  
   
   <p class='form-row'>
