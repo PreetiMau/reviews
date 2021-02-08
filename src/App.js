@@ -24,8 +24,19 @@ function App() {
   // }, []);
 
   return (
-    <div className="App">
+    <div className="Api">
       <h1>hello Api </h1>
+<form method="post">
+<input type="text" placeholder="text" />
+<input type="text" placeholder="numbar" />
+  </form>
+
+
+
+
+
+
+
       {/* {res===''? null:  (
         <>
         <input type="button" onClick={()=>resUser()}></input>
