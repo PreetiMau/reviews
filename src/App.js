@@ -29,6 +29,7 @@ function App() {
 <form method="post">
 <input type="text" placeholder="text" />
 <input type="text" placeholder="numbar" />
+<button type="submit"> send </button>
   </form>
 
 
