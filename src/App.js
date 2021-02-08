@@ -26,7 +26,7 @@ function App() {
   return (
     <div className="Api">
       <h1>hello Api </h1>
-      <form subject='A Message From Personal Website' netlify="true" name="contact1" id='contact-form' method="post" action="/thanks/" data-netlify-honeypot="bot-field">
+      <form subject='A Message From Personal Website' netlify="true" name="contact1" id='contact-form' method="post" data-netlify-honeypot="bot-field">
   <input type="hidden" name="form-name" value="contact" />
   <p style='display: none;'>
     <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
