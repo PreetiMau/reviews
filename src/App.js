@@ -26,11 +26,19 @@ function App() {
   return (
     <div className="Api">
       <h1>hello Api </h1>
-<form method="post">
-<input type="text" placeholder="text" />
-<input type="text" placeholder="numbar" />
-<button type="submit"> send </button>
-  </form>
+      <form name="contact" method="POST" data-netlify="true">
+  <p>
+    <label>Your Name: <input type="text" name="name" /></label>   
+  </p>
+  
+  
+  <p>
+    <label>Message: <textarea name="message"></textarea></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
 
 
 
